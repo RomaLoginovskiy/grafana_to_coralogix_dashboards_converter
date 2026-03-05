@@ -1,0 +1,259 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: "#/dashboard"
+          - img [ref=e10]
+        - generic [ref=e14]:
+          - button "Search ⌘K" [ref=e15] [cursor=pointer]:
+            - img [ref=e16]:
+              - img [ref=e17]
+            - generic [ref=e20]: Search
+            - generic [ref=e22]: ⌘K
+          - button "Cora AI" [ref=e24] [cursor=pointer]:
+            - img [ref=e25]:
+              - img [ref=e26]
+            - generic [ref=e30]: Cora AI
+      - heading "Favorites" [level=3] [ref=e31]
+      - list [ref=e32]:
+        - listitem [ref=e34]:
+          - link "Logs" [ref=e35] [cursor=pointer]:
+            - /url: "#/query-new/logs"
+            - img [ref=e36]:
+              - img [ref=e37]
+            - generic [ref=e38]: Logs
+        - listitem [ref=e40]:
+          - link "Tracing" [ref=e41] [cursor=pointer]:
+            - /url: "#/query-new/tracing"
+            - img [ref=e42]:
+              - img [ref=e43]
+            - generic [ref=e48]: Tracing
+      - heading "Spaces" [level=3] [ref=e49]
+      - list [ref=e50]:
+        - listitem [ref=e52]:
+          - link "Dashboards" [ref=e53] [cursor=pointer]:
+            - /url: "#/dashboards"
+            - img [ref=e54]:
+              - img [ref=e55]
+            - generic [ref=e59]: Dashboards
+        - listitem [ref=e61]:
+          - link "Alerts" [ref=e62] [cursor=pointer]:
+            - /url: "#/alerts"
+            - img [ref=e63]:
+              - img [ref=e64]
+            - generic [ref=e67]: Alerts
+        - listitem [ref=e69]:
+          - link "Explore" [ref=e70] [cursor=pointer]:
+            - /url: "#/query-new"
+            - img [ref=e71]:
+              - img [ref=e72]
+            - generic [ref=e75]: Explore
+        - separator [ref=e76]:
+          - separator [ref=e77]
+        - listitem [ref=e79]:
+          - link "APM" [ref=e80] [cursor=pointer]:
+            - /url: "#/apm/service-catalog"
+            - img [ref=e81]:
+              - img [ref=e82]
+            - generic [ref=e85]: APM
+        - listitem [ref=e87]:
+          - link "RUM" [ref=e88] [cursor=pointer]:
+            - /url: "#/rum/errors"
+            - img [ref=e89]:
+              - img [ref=e90]
+            - generic [ref=e92]: RUM
+        - listitem [ref=e94]:
+          - link "Infrastructure" [ref=e95] [cursor=pointer]:
+            - /url: "#/infrastructure"
+            - img [ref=e96]:
+              - img [ref=e97]
+            - generic [ref=e102]: Infrastructure
+        - listitem [ref=e104]:
+          - link "AI Center" [ref=e105] [cursor=pointer]:
+            - /url: "#/ai-center/overview"
+            - img [ref=e106]:
+              - img [ref=e107]
+            - generic [ref=e109]: AI Center
+        - listitem [ref=e111]:
+          - link "CSPM" [ref=e112] [cursor=pointer]:
+            - /url: "#/xdr/overview"
+            - img [ref=e113]:
+              - img [ref=e114]
+            - generic [ref=e116]: CSPM
+        - button [ref=e117] [cursor=pointer]
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - list [ref=e120]:
+            - generic [ref=e121]:
+              - listitem [ref=e123]:
+                - generic [ref=e124] [cursor=pointer]:
+                  - img [ref=e125]:
+                    - img [ref=e126]
+                  - generic [ref=e128]: Data Flow
+              - listitem [ref=e130]:
+                - link "Integrations" [ref=e131] [cursor=pointer]:
+                  - /url: "#/extensions/all-integrations"
+                  - img [ref=e132]:
+                    - img [ref=e133]
+                  - generic [ref=e138]: Integrations
+              - listitem [ref=e140]:
+                - generic [ref=e141] [cursor=pointer]:
+                  - img [ref=e142]:
+                    - img [ref=e143]
+                  - generic [ref=e148]: Hosted Apps
+            - listitem [ref=e150]:
+              - link "Settings" [ref=e151] [cursor=pointer]:
+                - /url: "#/settings"
+                - img [ref=e152]:
+                  - img [ref=e153]
+                - generic [ref=e156]: Settings
+          - button "ro watcher" [ref=e158] [cursor=pointer]:
+            - generic [ref=e159]: ro
+            - generic [ref=e160]: watcher
+        - separator [ref=e161]
+        - button "Toggle Sidenav" [ref=e163] [cursor=pointer]:
+          - img [ref=e164]:
+            - img [ref=e165]
+    - main [ref=e169]:
+      - iframe [ref=e171]:
+        - generic [ref=f3e3]:
+          - link "Skip to main content" [ref=f3e4] [cursor=pointer]:
+            - /url: "#pageContent"
+            - generic [ref=f3e5]: Skip to main content
+          - generic [ref=f3e6]:
+            - generic [ref=f3e7]:
+              - link "Grafana" [ref=f3e9] [cursor=pointer]:
+                - /url: /grafana
+                - img "Grafana" [ref=f3e10]
+              - generic [ref=f3e13]:
+                - img [ref=f3e16]
+                - button "Search or jump to..." [ref=f3e18] [cursor=pointer]
+                - generic [ref=f3e19]:
+                  - img [ref=f3e21]
+                  - generic [ref=f3e23]: cmd+k
+              - generic [ref=f3e24]:
+                - button "New" [ref=f3e25] [cursor=pointer]:
+                  - img [ref=f3e27]
+                  - img [ref=f3e30]
+                - button "Help" [ref=f3e33] [cursor=pointer]:
+                  - img [ref=f3e35]
+                - button "News" [ref=f3e37] [cursor=pointer]:
+                  - img [ref=f3e39]
+                - button "Profile" [ref=f3e41] [cursor=pointer]:
+                  - img "User avatar" [ref=f3e42]
+            - generic [ref=f3e43]:
+              - button "Toggle menu" [ref=f3e45] [cursor=pointer]:
+                - img [ref=f3e47]
+              - navigation "Breadcrumbs" [ref=f3e49]:
+                - list [ref=f3e50]:
+                  - listitem [ref=f3e51]:
+                    - link "Home" [ref=f3e52] [cursor=pointer]:
+                      - /url: /grafana/
+                    - img [ref=f3e55]
+                  - listitem [ref=f3e57]:
+                    - link "Dashboards" [ref=f3e58] [cursor=pointer]:
+                      - /url: /grafana/dashboards
+                    - img [ref=f3e61]
+                  - listitem [ref=f3e63]:
+                    - link "MyTestFolder" [ref=f3e64] [cursor=pointer]:
+                      - /url: /dashboards/f/a2cbdb86-c718-4de9-8718-e2f7cbc72181
+                    - img [ref=f3e67]
+                  - listitem [ref=f3e69]:
+                    - generic "Kubernetes / API server Copy" [ref=f3e70]
+              - generic [ref=f3e71]:
+                - button "Mark as favorite" [ref=f3e73] [cursor=pointer]:
+                  - img [ref=f3e75]
+                - button "Share dashboard or panel" [ref=f3e78] [cursor=pointer]:
+                  - img [ref=f3e80]
+                - generic [ref=f3e82]:
+                  - button "Save dashboard" [ref=f3e84] [cursor=pointer]:
+                    - img [ref=f3e86]
+                  - button "Dashboard settings" [ref=f3e89] [cursor=pointer]:
+                    - img [ref=f3e91]
+                  - generic [ref=f3e93]:
+                    - generic [ref=f3e94]:
+                      - 'button "Time range selected: Last 1 hour" [ref=f3e95] [cursor=pointer]':
+                        - img [ref=f3e97]
+                        - generic [ref=f3e100]:
+                          - generic [ref=f3e101]: Last 1 hour
+                          - generic [ref=f3e102]: UTC
+                        - img [ref=f3e104]
+                      - button "Zoom out time range" [ref=f3e106] [cursor=pointer]:
+                        - img [ref=f3e108]
+                    - generic [ref=f3e110]:
+                      - button "Refresh dashboard" [ref=f3e111] [cursor=pointer]:
+                        - img [ref=f3e113]
+                      - button "Choose refresh time interval with current interval 30 seconds selected" [ref=f3e116] [cursor=pointer]:
+                        - generic [ref=f3e117]: 30s
+                        - img [ref=f3e119]
+                  - button "Show more items" [ref=f3e122] [cursor=pointer]:
+                    - img [ref=f3e124]
+                - button "Toggle top search bar" [ref=f3e127] [cursor=pointer]:
+                  - img [ref=f3e130]
+          - main [ref=f3e132]:
+            - generic [ref=f3e138]:
+              - region "Dashboard submenu" [ref=f3e139]:
+                - generic [ref=f3e140]:
+                  - form "Template variables" [ref=f3e141]:
+                    - generic [ref=f3e143]:
+                      - generic [ref=f3e144]: Data source
+                      - button "Data source" [ref=f3e146] [cursor=pointer]:
+                        - generic [ref=f3e147]: Metrics
+                        - img [ref=f3e149]
+                    - generic [ref=f3e152]:
+                      - generic [ref=f3e153]: cluster
+                      - button "cluster" [ref=f3e155] [cursor=pointer]:
+                        - generic [ref=f3e156]: None
+                        - img [ref=f3e158]
+                    - generic [ref=f3e161]:
+                      - generic [ref=f3e162]: instance
+                      - button "instance" [ref=f3e164] [cursor=pointer]:
+                        - generic [ref=f3e165]: All
+                        - img [ref=f3e167]
+                  - button "Kubernetes" [ref=f3e170] [cursor=pointer]:
+                    - generic [ref=f3e171]:
+                      - img [ref=f3e173]
+                      - text: Kubernetes
+              - generic [ref=f3e177]:
+                - generic [ref=f3e180]:
+                  - generic [ref=f3e181]:
+                    - heading "Notice" [level=6] [ref=f3e182]
+                    - img [ref=f3e186]
+                  - paragraph [ref=f3e192]: The SLO (service level objective) and other metrics displayed on this dashboard are for informational purposes only.
+                - generic [ref=f3e195]:
+                  - generic [ref=f3e196]:
+                    - heading "Availability (30d) > 99.000%" [level=6] [ref=f3e197]
+                    - img [ref=f3e201]
+                  - generic [ref=f3e208]: No data
+                - generic [ref=f3e211]:
+                  - generic [ref=f3e212]:
+                    - heading "ErrorBudget (30d) > 99.000%" [level=6] [ref=f3e213]
+                    - img [ref=f3e217]
+                  - generic [ref=f3e221]: No data
+                - generic [ref=f3e224]:
+                  - generic [ref=f3e225]:
+                    - heading "Read Availability (30d)" [level=6] [ref=f3e226]
+                    - img [ref=f3e230]
+                  - generic [ref=f3e237]: No data
+                - generic [ref=f3e240]:
+                  - generic [ref=f3e241]:
+                    - heading "Read SLI - Requests" [level=6] [ref=f3e242]
+                    - img [ref=f3e246]
+                  - generic [ref=f3e250]: No data
+                - generic [ref=f3e253]:
+                  - generic [ref=f3e254]:
+                    - heading "Read SLI - Errors" [level=6] [ref=f3e255]
+                    - img [ref=f3e259]
+                  - generic [ref=f3e263]: No data
+                - generic [ref=f3e266]:
+                  - generic [ref=f3e267]:
+                    - heading "Read SLI - Duration" [level=6] [ref=f3e268]
+                    - img [ref=f3e272]
+                  - generic [ref=f3e276]: No data
+  - button "Chat with Support" [ref=e173] [cursor=pointer]:
+    - img [ref=e174]
+```

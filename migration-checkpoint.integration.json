@@ -1,0 +1,57 @@
+{
+  "f666691f-b254-473a-b2b1-101013437591": {
+    "GrafanaUid": "f666691f-b254-473a-b2b1-101013437591",
+    "GrafanaTitle": "3Oaks",
+    "FolderTitle": "MyTestFolder",
+    "Status": "Completed",
+    "CxDashboardId": "5d7a6c427f3c42cf9c44f",
+    "ErrorMessage": null,
+    "RetryCount": 0,
+    "NextRetryAt": null,
+    "LastAttemptAt": "2026-03-04T13:13:31.431399+00:00"
+  },
+  "da0e4551-8193-4799-afe3-42032414b425": {
+    "GrafanaUid": "da0e4551-8193-4799-afe3-42032414b425",
+    "GrafanaTitle": "grafana_widgets_migration_test",
+    "FolderTitle": "MyTestFolder",
+    "Status": "Completed",
+    "CxDashboardId": "2c56fbbd313844e0b52e2",
+    "ErrorMessage": null,
+    "RetryCount": 0,
+    "NextRetryAt": null,
+    "LastAttemptAt": "2026-03-04T13:13:32.002158+00:00"
+  },
+  "bca3e50b-7064-4354-b168-512a6039168e": {
+    "GrafanaUid": "bca3e50b-7064-4354-b168-512a6039168e",
+    "GrafanaTitle": "K8S Dashboard",
+    "FolderTitle": "MyTestFolder",
+    "Status": "Completed",
+    "CxDashboardId": "407a017b2ca84a708549d",
+    "ErrorMessage": null,
+    "RetryCount": 0,
+    "NextRetryAt": null,
+    "LastAttemptAt": "2026-03-04T13:13:32.361393+00:00"
+  },
+  "c61f41b3-2755-40bc-968d-0f92797b5c1a": {
+    "GrafanaUid": "c61f41b3-2755-40bc-968d-0f92797b5c1a",
+    "GrafanaTitle": "K8s test",
+    "FolderTitle": "MyTestFolder",
+    "Status": "Completed",
+    "CxDashboardId": "5df955d34b5444a8a299d",
+    "ErrorMessage": null,
+    "RetryCount": 0,
+    "NextRetryAt": null,
+    "LastAttemptAt": "2026-03-04T13:13:32.998555+00:00"
+  },
+  "f2f4fb98-8bdc-45df-a191-127f6a49ba32": {
+    "GrafanaUid": "f2f4fb98-8bdc-45df-a191-127f6a49ba32",
+    "GrafanaTitle": "Kubernetes / API server Copy",
+    "FolderTitle": "MyTestFolder",
+    "Status": "Completed",
+    "CxDashboardId": "fb94c4731198430b8ff4e",
+    "ErrorMessage": null,
+    "RetryCount": 0,
+    "NextRetryAt": null,
+    "LastAttemptAt": "2026-03-04T13:13:33.274411+00:00"
+  }
+}
